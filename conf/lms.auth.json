@@ -22,7 +22,7 @@
         }
     }, 
     "CC_PROCESSOR_NAME": "CyberSource2", 
-    "CELERY_BROKER_PASSWORD": "CK0ITHioeE4VzkhLafG7JP2AWQgdFTEX4Rk", 
+    "CELERY_BROKER_PASSWORD": "xgGUPec2wa6rXOrIWMBG4Hc306gVVXfMO0l", 
     "CELERY_BROKER_USER": "celery", 
     "CONTENTSTORE": {
         "ADDITIONAL_OPTIONS": {}, 
@@ -33,7 +33,7 @@
             "host": [
                 "localhost"
             ], 
-            "password": "BdJdeYLUib2Io2uHtOMF7q7dKikmLH7eHFH", 
+            "password": "TEjPW4mG8oyKvljquVciNUTUVzjmUvcZU9A", 
             "port": 27017, 
             "socketTimeoutMS": 3000, 
             "ssl": false, 
@@ -45,7 +45,7 @@
             "host": [
                 "localhost"
             ], 
-            "password": "BdJdeYLUib2Io2uHtOMF7q7dKikmLH7eHFH", 
+            "password": "TEjPW4mG8oyKvljquVciNUTUVzjmUvcZU9A", 
             "port": 27017, 
             "ssl": false, 
             "user": "edxapp"
@@ -60,7 +60,7 @@
             "HOST": "localhost", 
             "NAME": "edxapp", 
             "OPTIONS": {}, 
-            "PASSWORD": "wlV4LKZu1OY6rr2Kvx4YdeClNtDtrFa7dJE", 
+            "PASSWORD": "Cwsj98sayAsHNAKPYEqM2YzQXHJY8I5K4LD", 
             "PORT": "3306", 
             "USER": "edxapp001"
         }, 
@@ -70,7 +70,7 @@
             "HOST": "localhost", 
             "NAME": "edxapp", 
             "OPTIONS": {}, 
-            "PASSWORD": "wlV4LKZu1OY6rr2Kvx4YdeClNtDtrFa7dJE", 
+            "PASSWORD": "Cwsj98sayAsHNAKPYEqM2YzQXHJY8I5K4LD", 
             "PORT": "3306", 
             "USER": "edxapp001"
         }, 
@@ -80,7 +80,7 @@
             "HOST": "localhost", 
             "NAME": "edxapp_csmh", 
             "OPTIONS": {}, 
-            "PASSWORD": "5n92o5eAfUjqCZ20cEGcs78ME7UgfQcecFD", 
+            "PASSWORD": "5ESnWJ7tvBpjHSBn0cpSQDtiptUKHylkPj2", 
             "PORT": "3306", 
             "USER": "edxapp_cmsh001"
         }
@@ -98,7 +98,7 @@
         "host": [
             "localhost"
         ], 
-        "password": "BdJdeYLUib2Io2uHtOMF7q7dKikmLH7eHFH", 
+        "password": "TEjPW4mG8oyKvljquVciNUTUVzjmUvcZU9A", 
         "port": 27017, 
         "socketTimeoutMS": 3000, 
         "ssl": false, 
@@ -106,7 +106,7 @@
     }, 
     "ECOMMERCE_API_SIGNING_KEY": "SET-ME-PLEASE", 
     "EDX_API_KEY": "PUT_YOUR_API_KEY_HERE", 
-    "EMAIL_HOST_PASSWORD": "Qf5bPlsrM1VUD75dv8viJO0RRESZg0sSeqm", 
+    "EMAIL_HOST_PASSWORD": "CyQQRTTflc7XMrPZbMe6d8sEMQLKUr0JdZX", 
     "EMAIL_HOST_USER": "", 
     "ENTERPRISE_SERVICE_WORKER_USERNAME": "enterprise_worker", 
     "EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST": [], 
@@ -129,7 +129,7 @@
                             "host": [
                                 "localhost"
                             ], 
-                            "password": "BdJdeYLUib2Io2uHtOMF7q7dKikmLH7eHFH", 
+                            "password": "TEjPW4mG8oyKvljquVciNUTUVzjmUvcZU9A", 
                             "port": 27017, 
                             "socketTimeoutMS": 3000, 
                             "ssl": false, 
@@ -151,7 +151,7 @@
                             "host": [
                                 "localhost"
                             ], 
-                            "password": "BdJdeYLUib2Io2uHtOMF7q7dKikmLH7eHFH", 
+                            "password": "TEjPW4mG8oyKvljquVciNUTUVzjmUvcZU9A", 
                             "port": 27017, 
                             "socketTimeoutMS": 3000, 
                             "ssl": false, 
@@ -174,8 +174,8 @@
         "class": "edx_proctoring.backends.null.NullBackendProvider", 
         "options": {}
     }, 
-    "PROFILE_IMAGE_SECRET_KEY": "l3WvCZpWV3ZElQ02HnsuZA74iEodfXhQOOfQs9LYQQAasJRrjAieI7f0iHzYuYAVrQhaDfCKa7xW9Jmpq78mA8FXumDHflr7cAy0", 
-    "SECRET_KEY": "eK9f4N52eC2kyWYieOuTkCGMPcvnr3XhMzwFpJy6Vp5NlmqGurxWXlMABKq59NK4A1sZx0J3sObL7KTlDLBEVIan2hCeabyZBhVV", 
+    "PROFILE_IMAGE_SECRET_KEY": "Hld1XvsNiIOSwWOK2UvcLAPTxXgNQ70wuZ6Vp6VfsXmK0oP21RpNOUaAqk6nlVYXmLGaw1300Nqk0WTMb1GdkdJDodkObN9BnWu1", 
+    "SECRET_KEY": "lAzcXrnBDBSvXFFAe6kk4FIWqrI9XCz8SWMYKnXypqf0Z7KtmufwR4I15Hy6dmNajtpGQdsXqEcmX9L72NOXEZV3IYuGu8UtDG6B", 
     "SEGMENT_KEY": null, 
     "SOCIAL_AUTH_OAUTH_SECRETS": "", 
     "SOCIAL_AUTH_SAML_SP_PRIVATE_KEY": "", 
@@ -197,8 +197,8 @@
     }, 
     "XQUEUE_INTERFACE": {
         "basic_auth": [
-            "E09lxbhRenN9TWN9sXG28lcu3ccVMaEm74L", 
-            "dreXsnmWDAfZmayeDZUTKGyFZn0nsthRavj"
+            "1xPqlEMP7KiA6N3JyUCsx74ddvrGxYVOzNB", 
+            "IYPmClGHoJzkrENFyZSRx048zT8fudBlupG"
         ], 
         "django_auth": {
             "password": "password", 
