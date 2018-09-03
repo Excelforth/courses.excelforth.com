@@ -108,11 +108,16 @@
 
         <nav class="nav-legal" aria-label="${_('Legal')}">
           <ul>
-            % for item_num, link in enumerate(footer['legal_links'], start=1):
-              <li class="nav-legal-0${item_num}">
-                <a href="${link['url']}">${link['title']}</a>
+##            % for item_num, link in enumerate(footer['legal_links'], start=1):
+##              <li class="nav-legal-0${item_num}">
+##                <a href="${link['url']}">${link['title']}</a>
+##              </li>
+##            % endfor
+            
+            <li class="nav-legal">
+                <a href="https://www.excelforth.com/privacy-policy">| Privacy Policy |</a>
+                <a href="https://www.excelforth.com/terms-and-conditions"> Terms of Services |</a>
               </li>
-            % endfor
            ## <li><a href="${footer['edx_org_link']['url']}">${footer['edx_org_link']['text']}</a></li>
           </ul>
         </nav>
